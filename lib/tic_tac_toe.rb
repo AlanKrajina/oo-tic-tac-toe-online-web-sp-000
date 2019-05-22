@@ -50,10 +50,10 @@ WIN_COMBINATIONS = [
      move(board, index, current_player(board)) 
     if valid_move?(board, index)
       move(board, index)
-     display_board(board)
+      display_board(board)
     else
      turn(board)
       end
-end
-  
+    end
+  end
 end
