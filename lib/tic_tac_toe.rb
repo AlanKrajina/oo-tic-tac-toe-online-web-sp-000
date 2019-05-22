@@ -31,8 +31,8 @@ WIN_COMBINATIONS = [
    @board[index] = current_player
   end
   
-  def position_taken?(board, location)
-   board[location] != " " && board[location] != ""
+  def position_taken?(location)
+   @board[location] != " " && @board[location] != ""
   end
   
   
