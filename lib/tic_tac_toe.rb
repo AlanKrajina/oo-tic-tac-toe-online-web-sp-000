@@ -67,10 +67,10 @@ WIN_COMBINATIONS = [
       if valid_move?(index) 
         move(index, current_player) 
       if valid_move?(index)
-         move(board, index)
-      display_board(board)
+         move(index)
+      display_board
     else
-      turn(board)
+      turn
       end
     end
   end
