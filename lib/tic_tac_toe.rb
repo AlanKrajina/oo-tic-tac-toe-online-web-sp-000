@@ -73,5 +73,5 @@ WIN_COMBINATIONS = [
       turn(board)
       end
     end
-  
+  end
 end
