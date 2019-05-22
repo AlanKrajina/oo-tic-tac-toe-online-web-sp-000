@@ -67,7 +67,7 @@ WIN_COMBINATIONS = [
     
       if valid_move?(index) 
         move(index, current_player) 
-       if valid_move?(board, index)
+       if valid_move?(index)
         move(board, index)
         display_board(board)
         else
