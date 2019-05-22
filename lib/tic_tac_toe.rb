@@ -16,15 +16,4 @@ class TicTacToe
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 end
