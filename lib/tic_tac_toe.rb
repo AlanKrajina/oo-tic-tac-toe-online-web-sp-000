@@ -1,7 +1,6 @@
 class TicTacToe
   
-  attr_accessor :location
-  
+
   def initialize
     @board = Array.new(9, " ")
   end
